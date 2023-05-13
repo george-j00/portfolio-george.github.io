@@ -58,6 +58,7 @@ h2::selection {
 .toggle-icons > img {
   transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   width: 30px;
+  margin-top: 7rem;
 }
 
 .moon {
@@ -130,7 +131,7 @@ h2::selection {
 }
 .tech{
   display: flex;
-  gap: 4%;
+  gap: 2.5%;
   justify-content: center;
   margin-top: 50px;
 }
@@ -227,7 +228,7 @@ h2::selection {
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
-    margin-top: 7rem;
+    margin-top: 4.5rem;
     text-align: center;
   }
   .about-container {
@@ -237,7 +238,12 @@ h2::selection {
   .content-text h2 {
     font-size: 2.5rem;
   }
-  .about-text h2 {
+  .about-text  h2 {
     font-size: 2.5rem;
   }
+  .about-text p {
+   margin-top: 10px;
+  }
+  
 }
+
